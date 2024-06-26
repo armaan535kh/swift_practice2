@@ -1,4 +1,8 @@
-// Variable and constant basics 
+/*Variables and Constants Basics:
+
+Create a constant to store your name.
+Create a variable to store your current age.
+Print both the name and age.*/
 
 let myName = "Armaan Khan"
 
@@ -6,7 +10,11 @@ var myAge = 19
 
 print("My name is \(myName) and I am \(myAge) years old.")
 
-//Data type conversations
+/*Data Types Conversion:
+
+Create a variable to store a floating-point number (e.g., 3.14).
+Convert the floating-point number to an integer and store it in another variable.
+Print both the floating-point and integer values.*/
 
 var flNum = 3.14
 
