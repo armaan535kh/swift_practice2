@@ -57,3 +57,28 @@ var lastName = "Khan"
 fName.append(lastName)
 
 print(fName)
+
+/*String Interpolation:
+
+Create variables to store your first name, last name, and age.
+Use string interpolation to create a sentence like "My name is [first name] [last name] and I am [age] years old." and print it.*/
+
+var firstName = "Armaan"
+var lName = "Khan"
+var age = 19
+
+print("My name is \(firstName)  \(lName) and I am \(age) years old. ")
+
+/*Type Inference:
+
+Declare a variable with an initial value of 10.5 without explicitly specifying its type.
+Declare a constant with an initial value of "Swift" without explicitly specifying its type.
+Print the types of both variables using type(of:).*/
+
+var inNum = 10.5
+var stStr = "Swift"
+
+print(type (of: intNum))
+print(type(of: stStr))
+
+ 
