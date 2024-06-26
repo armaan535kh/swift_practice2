@@ -37,3 +37,15 @@ Check if the character is a letter or a number and print the result.
 
 var ch = "A"
 print("Unicode of \(ch) is  \(ch.unicodeScalars.first!.value)")
+
+/* 5. Combining Strings:
+
+Create two string variables to store your first name and last name.
+Combine them to create a full name and print it.
+Add a space between the first name and last name when combining. */
+
+var fName = "Armaan"
+var lastName = "Khan"
+fName.append(lastName)
+
+print(fName)
